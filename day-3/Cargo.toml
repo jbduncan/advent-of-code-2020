@@ -1,0 +1,21 @@
+[package]
+name = "day-3"
+version = "0.1.0"
+authors = ["Jonathan Bluett-Duncan <jonathan.bluett-duncan@argos.co.uk>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.35"
+clap = "2.33.3"
+itertools = "0.9.0"
+ndarray = "0.14.0"
+thiserror = "1.0.22"
+
+[dev-dependencies]
+assert_cmd = "1.0.2"
+indoc = "1.0.3"
+predicates = "1.0.5"
+tempfile = "3.1.0"
+test-case = "1.0.0"
