@@ -1,9 +1,6 @@
 use anyhow::{Context, Result};
 use std::path::PathBuf;
 use structopt::StructOpt;
-use petgraph::graphmap::DiGraphMap;
-use petgraph::visit::Bfs;
-use petgraph::visit::Walker;
 
 #[derive(StructOpt)]
 struct Cli {
