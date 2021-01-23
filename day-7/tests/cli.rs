@@ -9,9 +9,10 @@ mod given_first_example_bag_rules {
 
     mod when_finding_num_bags_that_can_eventually_contain_shiny_gold_bag {
         use super::*;
+        use std::error::Error;
 
         #[test]
-        fn then_it_outputs_4() -> Result<(), Box<dyn std::error::Error>> {
+        fn then_it_outputs_4() -> Result<(), Box<dyn Error>> {
             let mut input_file = NamedTempFile::new()?;
             writeln!(
                 input_file,
